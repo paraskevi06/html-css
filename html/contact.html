@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ergasia.css">
+</head>
+
+<body>
+    <div class="menu">
+            <h1>Συνταγές Μαγειρικής</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Αρχική</a></li>
+            <li><a href="contact.html">Επικοινονία</a></li>
+            <li><a href="multimedia.html">Συνταγές</a></li>
+        </ul>
+    </nav>
+    </div>
+    <h2>Για να επικοινωνήσετε μαζί μας(;</h2>
+    <form>
+        <label for="onoma">ΟΝΟΜΑ</label>
+        <input type="text" id="onoma" name="onoma" required>
+        <br>
+        <label for="email">EMAIL</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <label for="thema">ΘΕΜΑ</label>
+        <input type="text" id="thema" name="thema" required>
+        <br>
+        <label for="message">ΤΟ ΜΗΝΥΜΑ ΣΑΣ</label>
+        <textarea id="message" name="message" minlength="15" required></textarea>
+        <br>
+        <label for="age">ΗΛΙΚΙΑ</label>
+        <input type="number" id="age" min="18" required>
+        <br>
+        <label for="gender">ΦΥΛΟ:</label>
+        <label for="male">ΑΝΤΡΑΣ</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">ΓΥΝΑΙΚΑ</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+        <button type="submit">ΥΠΟΒΟΛΗ</button>
+    </form>
+</body>
+
+</html>
